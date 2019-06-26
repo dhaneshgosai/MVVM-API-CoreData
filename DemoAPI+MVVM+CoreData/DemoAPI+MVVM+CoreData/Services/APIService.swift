@@ -13,7 +13,7 @@ typealias JSONDictionary = [String : Any]
 class APIService {
     
     //Define Base URL
-    
+    private let baseURL = "https://www.google.com"
     //News HeadLine Data URL
     private let sourcesURL = URL(string: "https://newsapi.org/v2/sources?apiKey=0cf790498275413a9247f8b94b3843fd")!
     
